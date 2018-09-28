@@ -43,7 +43,7 @@ import java.time.ZonedDateTime;
 /**
  * BaseOrderDo class
  *
- * @author J.Wong
+ * @author 
  * @date 2017/11/17
  */
 public class BaseOrderDo {
@@ -117,7 +117,7 @@ import java.time.ZonedDateTime;
 /**
  * BusinessDataJob class
  *
- * @author J.Wong
+ * @author 
  * @date 2017/11/16
  */
 public class BusinessDataDo {
@@ -238,7 +238,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * BusinessDataDoJobConf class
  *
- * @author J.Wong
+ * @author
  * @date 2017/11/16
  */
 // @Configuration
@@ -286,7 +286,7 @@ import java.util.Date;
 /**
  * BusinessDataDoScheduledTask class
  *
- * @author J.Wong
+ * @author
  * @date 2017/11/16
  */
 // @Component
@@ -335,7 +335,7 @@ import org.springframework.batch.item.ItemProcessor;
 /**
  * BusinessDataDoProcessor class
  *
- * @author J.Wong
+ * @author
  * @date 2017/11/17
  */
 public class BusinessDataDoProcessor implements ItemProcessor<BaseOrderDo, BusinessDataDo> {
@@ -376,7 +376,7 @@ import java.util.HashMap;
 /**
  * BusinessDataDoStepConf class
  *
- * @author J.Wong
+ * @author
  * @date 2017/11/16
  */
 // @Configuration
@@ -484,7 +484,7 @@ import org.springframework.web.context.ServletContextAware;
  * <p>
  * 从Spring容器中取得对象
  *
- * @author J.Wong
+ * @author 
  * @date 2017/11/16
  */
 public class SpringContextUtil implements ApplicationContextAware,
